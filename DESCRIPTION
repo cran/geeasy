@@ -1,12 +1,12 @@
 Package: geeasy
 Type: Package
 Title: Solve Generalized Estimating Equations for Clustered Data
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(person("Anne Helby", "Petersen", role = c("aut"), email = "ahpe@sund.ku.dk"),
 	   person("Lee", "McDaniel", role = "aut", comment = "Author of geeM"),
       	   person("Claus", "Ekstrøm", role = "ctb", comment = "Wrote code for drop1 methods"),
 	   person("Søren", "Højsgaard", role = c("aut", "cre"), email="sorenh@math.aau.dk", comment = "Author of geepack"))
-Date: 2022-01-03
+Date: 2024-04-29
 Maintainer: Søren Højsgaard <sorenh@math.aau.dk>
 Depends: geepack, stats
 Imports: ggplot2, geeM, lme4, methods, Matrix, MESS
@@ -24,14 +24,14 @@ Description: Estimation of generalized linear models with
     with and inspecting results from the 'geepack' package, e.g. a
     'confint' method for 'geeglm' objects from 'geepack'.
 License: GPL-3
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.1
 Encoding: UTF-8
 Language: en-US
 NeedsCompilation: no
-Packaged: 2022-01-05 09:41:28 UTC; sorenh
+Packaged: 2024-04-29 11:02:50 UTC; sorenh
 Author: Anne Helby Petersen [aut],
   Lee McDaniel [aut] (Author of geeM),
   Claus Ekstrøm [ctb] (Wrote code for drop1 methods),
   Søren Højsgaard [aut, cre] (Author of geepack)
 Repository: CRAN
-Date/Publication: 2022-01-06 09:50:05 UTC
+Date/Publication: 2024-04-29 11:30:03 UTC

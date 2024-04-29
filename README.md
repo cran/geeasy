@@ -1,9 +1,17 @@
 # geeasy
+[![CRAN\_Release\_Badge](http://www.r-pkg.org/badges/version-ago/geeasy)](https://CRAN.R-project.org/package=geeasy)
+![Download counter](http://cranlogs.r-pkg.org/badges/grand-total/geeasy)
 
 R package with tools for fitting generalized linear models with
 clustered observations using generalized estimating equations.
 
 ## Installation
+
+geeasy is available on CRAN and can be installed as follows:
+
+```{r}
+install.packages("geeasy")
+```
 
 To install the development version of `geeasy` run the following
 commands from within R (requires that the `devtools` package is already
@@ -118,7 +126,7 @@ m_outout_geem <- geelm(outcome ~ treat + sex + age + baseline,
 ```
 This does not change the computations performed, only the output object. This means that the output will generally *not* be identical to that of `geeM::geem()`.
 
-** Changing the estimation engine:** `geelm()` allows for choosing to use `geepack` as its computational engine as follows:
+**Changing the estimation engine:** `geelm()` allows for choosing to use `geepack` as its computational engine as follows:
 
 ```{r}
 m_engine_geepack <- geelm(outcome ~ treat + sex + age + baseline, 
